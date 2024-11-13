@@ -1,3 +1,14 @@
+<%--Incluimos el tag del page--%>
+<%@page contentType="text/html" pageEncoding ="UTF-8" %>
+
+<%--importar libreria utilMap--%>
+<%@page import="java.util.Map" %>
+
+<%--incluimos un scriplets para llamar a los errores--%>
+<%
+    Map<String,String> errores = (Map<String, String>) request.getAttribute("errores");
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +16,36 @@
   <title>Manejo de formularios</title>
 </head>
 <body>
+
 <h1>Manejo de Formulario</h1>
+<%--implementamos una condicion para saber si existe errores o no
+eso queires decir si esta vacio estar lleno--%>
+
+<%
+    if(errores != null && errores.size()>0){
+
+%>
+<ul>
+    <%
+        //listamos  los errores
+
+        for (String error:errores.values()){
+
+
+    %>
+    <li>
+        <%=error%>
+    </li>
+    <%
+        }
+    %>
+
+</ul>
+<%
+    }
+%>
+
+
 
 <div>
   <form action="/Formulario/ingresar" method="post">
