@@ -10,11 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0559ba21-9df5-4d8a-810f-7995165ded11" name="Changes" comment="TERMINADO">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Formulario.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Formulario/WEB-INF/classes/servlet/Formulario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Formulario/WEB-INF/classes/servlet/Formulario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Formulario/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/Formulario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Formulario/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Formulario/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +37,12 @@
     &quot;assignee&quot;: &quot;Jonapardo6&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Jonapardo6/PONERESTILOSAa.git&quot;,
-    &quot;accountId&quot;: &quot;429c5f89-0a24-4802-b1c0-155e16c28835&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jonapardo6/Formulario15112024.git",
+    "accountId": "b22086ed-2188-49e5-ac95-3e54b7d01153"
   }
-}</component>
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -200,6 +199,7 @@
       <workItem from="1731593798597" duration="3075000" />
       <workItem from="1731678281606" duration="1204000" />
       <workItem from="1731679518921" duration="4286000" />
+      <workItem from="1731898229832" duration="2989000" />
     </task>
     <task id="LOCAL-00001" summary="PONERESTILOS">
       <option name="closed" value="true" />
